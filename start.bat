@@ -9,7 +9,7 @@ start "Node.js Server" node server.js
 echo Opening web browser...
 REM Wait a couple of seconds to give the server time to start
 timeout /t 2 /nobreak > nul
-start http://localhost:3000
+start http://localhost:3000/api-docs
 
 echo Opening storage directory in File Explorer...
 REM %cd% is a variable that represents the current directory
